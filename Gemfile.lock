@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    redraw (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    minitest (5.11.3)
+    rake (12.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler
+  minitest
+  rake
+  redraw!
+
+BUNDLED WITH
+   1.17.1
