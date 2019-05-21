@@ -1,6 +1,6 @@
 # Redraw
 
-Redraw is a prototyping tool for create custom charts with [C3.js](http://c3js.org) and Rails. C3.js is the very flexible library based on D3.js for create the charts with [many options](https://github.com/c3js/c3/blob/master/src/config.js) and fine tuning result.
+Redraw is a prototyping tool for create custom charts with [C3.js](http://c3js.org) and Rails. C3.js is the very flexible library based on D3.js for create the charts with [many options](https://github.com/c3js/c3/blob/master/src/config.js) for fine tuning result.
 
 While you creating each chart you need try the many variations until you reach the final result, it's a bit tiring. This Gem allow work with the chart configuration as usual Ruby class containing hash-like DSL for save you time.
 
