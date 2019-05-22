@@ -1,9 +1,10 @@
-require "redraw/version"
-require "redraw/factory"
-require "redraw/loader"
-require "redraw/context"
-require "redraw/wrapper"
-require "redraw/chart"
+require 'redraw/core_ext/ast'
+require 'redraw/version'
+require 'redraw/factory'
+require 'redraw/loader'
+require 'redraw/context'
+require 'redraw/wrapper'
+require 'redraw/chart'
 
 module Redraw
   class Engine < ::Rails::Engine

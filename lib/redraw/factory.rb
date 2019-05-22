@@ -9,8 +9,8 @@ module Redraw
       delegate :as_html, :as_json, to: :@config
 
       define_method(:initialize) do
-        instance_variable_set('@config', config)
         instance_variable_set('@name', name)
+        instance_variable_set('@config', config)
       end
     end
     klass
